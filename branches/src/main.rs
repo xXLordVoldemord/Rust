@@ -47,6 +47,19 @@ fn main() {
     let summe = iterate_shit();
 
     println!("das ergebnis ist {}", summe);
+
+
+
+    let a = [10,20,30,40,50];
+
+    for penis in a.iter(){
+        println!("der wert ist {}", penis);
+    }
+
+    for b in (1..4).rev() {
+        println!("try out {}", b);
+    }
+
 }
 
 fn iterate_shit () -> f32 {
